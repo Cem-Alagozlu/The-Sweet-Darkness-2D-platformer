@@ -1,0 +1,87 @@
+﻿  stdafx.cpp
+  Camera.cpp
+  Character.cpp
+  Coin.cpp
+  Core.cpp
+  Credits.cpp
+  Game.cpp
+  HUD.cpp
+  LevelBase.cpp
+  LevelBoss.cpp
+  LevelDecorations.cpp
+  LevelEnd.cpp
+  LevelFour.cpp
+  LevelManager.cpp
+  LevelOne.cpp
+  LevelThree.cpp
+  LevelTwo.cpp
+  Lever.cpp
+  main.cpp
+  Matrix2x3.cpp
+  MenuExtra.cpp
+  Compiling...
+  MenuIntro.cpp
+  MenuMain.cpp
+  MenuManager.cpp
+  MenuQuit.cpp
+  MenuStory.cpp
+  Platform.cpp
+  PlatformMoving.cpp
+  PlatformStatic.cpp
+  Player.cpp
+  SoundManager.cpp
+  SoundEffect.cpp
+  SoundStream.cpp
+  Sprite.cpp
+  Ladder.cpp
+  structs.cpp
+  SVGParser.cpp
+  Texture.cpp
+  Trap.cpp
+  TrapCircleSaw.cpp
+  TrapSpikeFall.cpp
+  Compiling...
+  TrapSwingBlade.cpp
+  utils.cpp
+  Vector2f.cpp
+     Creating library D:\DAE\Jaar 01\SEM_2\Programming 2\End-Exam\1DAE16_Cem_Alagozlu_TheSweetDarkness\1DAE16_Cem_Alagozlu_TheSweetDarkness\Sweet_Darkness\Release\Sweet_Darkness.lib and object D:\DAE\Jaar 01\SEM_2\Programming 2\End-Exam\1DAE16_Cem_Alagozlu_TheSweetDarkness\1DAE16_Cem_Alagozlu_TheSweetDarkness\Sweet_Darkness\Release\Sweet_Darkness.exp
+  Generating code
+  All 1955 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Sweet_Darkness.vcxproj -> D:\DAE\Jaar 01\SEM_2\Programming 2\End-Exam\1DAE16_Cem_Alagozlu_TheSweetDarkness\1DAE16_Cem_Alagozlu_TheSweetDarkness\Sweet_Darkness\Release\Sweet_Darkness.exe
+  D:\DAE\Jaar 01\SEM_2\Programming 2\End-Exam\1DAE16_Cem_Alagozlu_TheSweetDarkness\1DAE16_Cem_Alagozlu_TheSweetDarkness\Sweet_Darkness\3rdParty\SDL2\lib\x86\SDL2.dll
+  1 File(s) copied
+  D:\DAE\Jaar 01\SEM_2\Programming 2\End-Exam\1DAE16_Cem_Alagozlu_TheSweetDarkness\1DAE16_Cem_Alagozlu_TheSweetDarkness\Sweet_Darkness\3rdParty\SDL2_image\lib\x86\libjpeg-9.dll
+  1 File(s) copied
+  D:\DAE\Jaar 01\SEM_2\Programming 2\End-Exam\1DAE16_Cem_Alagozlu_TheSweetDarkness\1DAE16_Cem_Alagozlu_TheSweetDarkness\Sweet_Darkness\3rdParty\SDL2_image\lib\x86\libpng16-16.dll
+  1 File(s) copied
+  D:\DAE\Jaar 01\SEM_2\Programming 2\End-Exam\1DAE16_Cem_Alagozlu_TheSweetDarkness\1DAE16_Cem_Alagozlu_TheSweetDarkness\Sweet_Darkness\3rdParty\SDL2_image\lib\x86\libtiff-5.dll
+  1 File(s) copied
+  D:\DAE\Jaar 01\SEM_2\Programming 2\End-Exam\1DAE16_Cem_Alagozlu_TheSweetDarkness\1DAE16_Cem_Alagozlu_TheSweetDarkness\Sweet_Darkness\3rdParty\SDL2_image\lib\x86\libwebp-7.dll
+  1 File(s) copied
+  D:\DAE\Jaar 01\SEM_2\Programming 2\End-Exam\1DAE16_Cem_Alagozlu_TheSweetDarkness\1DAE16_Cem_Alagozlu_TheSweetDarkness\Sweet_Darkness\3rdParty\SDL2_image\lib\x86\SDL2_image.dll
+  1 File(s) copied
+  D:\DAE\Jaar 01\SEM_2\Programming 2\End-Exam\1DAE16_Cem_Alagozlu_TheSweetDarkness\1DAE16_Cem_Alagozlu_TheSweetDarkness\Sweet_Darkness\3rdParty\SDL2_image\lib\x86\zlib1.dll
+  1 File(s) copied
+  D:\DAE\Jaar 01\SEM_2\Programming 2\End-Exam\1DAE16_Cem_Alagozlu_TheSweetDarkness\1DAE16_Cem_Alagozlu_TheSweetDarkness\Sweet_Darkness\3rdParty\SDL2_ttf\lib\x86\libfreetype-6.dll
+  1 File(s) copied
+  D:\DAE\Jaar 01\SEM_2\Programming 2\End-Exam\1DAE16_Cem_Alagozlu_TheSweetDarkness\1DAE16_Cem_Alagozlu_TheSweetDarkness\Sweet_Darkness\3rdParty\SDL2_ttf\lib\x86\SDL2_ttf.dll
+  1 File(s) copied
+  D:\DAE\Jaar 01\SEM_2\Programming 2\End-Exam\1DAE16_Cem_Alagozlu_TheSweetDarkness\1DAE16_Cem_Alagozlu_TheSweetDarkness\Sweet_Darkness\3rdParty\SDL2_mixer-2.0.2\lib\x86\libFLAC-8.dll
+  1 File(s) copied
+  D:\DAE\Jaar 01\SEM_2\Programming 2\End-Exam\1DAE16_Cem_Alagozlu_TheSweetDarkness\1DAE16_Cem_Alagozlu_TheSweetDarkness\Sweet_Darkness\3rdParty\SDL2_mixer-2.0.2\lib\x86\libmodplug-1.dll
+  1 File(s) copied
+  D:\DAE\Jaar 01\SEM_2\Programming 2\End-Exam\1DAE16_Cem_Alagozlu_TheSweetDarkness\1DAE16_Cem_Alagozlu_TheSweetDarkness\Sweet_Darkness\3rdParty\SDL2_mixer-2.0.2\lib\x86\libmpg123-0.dll
+  1 File(s) copied
+  D:\DAE\Jaar 01\SEM_2\Programming 2\End-Exam\1DAE16_Cem_Alagozlu_TheSweetDarkness\1DAE16_Cem_Alagozlu_TheSweetDarkness\Sweet_Darkness\3rdParty\SDL2_mixer-2.0.2\lib\x86\libogg-0.dll
+  1 File(s) copied
+  0 File(s) copied
+  File not found - libopus-0.dll
+  File not found - libopusfile-0.dll
+  0 File(s) copied
+  D:\DAE\Jaar 01\SEM_2\Programming 2\End-Exam\1DAE16_Cem_Alagozlu_TheSweetDarkness\1DAE16_Cem_Alagozlu_TheSweetDarkness\Sweet_Darkness\3rdParty\SDL2_mixer-2.0.2\lib\x86\libvorbis-0.dll
+  1 File(s) copied
+  D:\DAE\Jaar 01\SEM_2\Programming 2\End-Exam\1DAE16_Cem_Alagozlu_TheSweetDarkness\1DAE16_Cem_Alagozlu_TheSweetDarkness\Sweet_Darkness\3rdParty\SDL2_mixer-2.0.2\lib\x86\libvorbisfile-3.dll
+  1 File(s) copied
+  D:\DAE\Jaar 01\SEM_2\Programming 2\End-Exam\1DAE16_Cem_Alagozlu_TheSweetDarkness\1DAE16_Cem_Alagozlu_TheSweetDarkness\Sweet_Darkness\3rdParty\SDL2_mixer-2.0.2\lib\x86\SDL2_mixer.dll
+  1 File(s) copied

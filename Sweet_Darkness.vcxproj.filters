@@ -1,0 +1,342 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Game Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Framework Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Game Files\Main files">
+      <UniqueIdentifier>{4df1874c-edf7-4e67-a8e6-7baeb4a9bf73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Menu files">
+      <UniqueIdentifier>{5ee2e21a-4b60-44d8-8308-96f6f3a6355b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Levels">
+      <UniqueIdentifier>{a127f2d5-65de-4523-ba91-aaa9d131f189}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Levels\Level One">
+      <UniqueIdentifier>{adaea4a8-8f30-487f-ba41-a6ffa9d16327}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Player">
+      <UniqueIdentifier>{ba9bcaae-7427-4dbe-b9b8-fa46abc78b49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Game Files\Main files\SVG parser">
+      <UniqueIdentifier>{053f562f-e8c8-495f-83b7-f6970b9b40a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Main files\Camera">
+      <UniqueIdentifier>{f3d8b103-4050-4357-8622-9557c277d43c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Levels\Traps">
+      <UniqueIdentifier>{76121cd9-eb92-47f2-86e7-146f3cb89599}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Levels\Platforms">
+      <UniqueIdentifier>{067ba34f-1805-4253-85d3-bc24d9521475}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Levels\Main">
+      <UniqueIdentifier>{0c806aa7-0656-4666-b4bc-c74434b68934}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Levels\Extra">
+      <UniqueIdentifier>{aa5c1578-330f-4bcd-b86f-b72deae82615}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Sound files">
+      <UniqueIdentifier>{34fbbb4e-e026-4bb5-8917-843744860e2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Levels\Level Two">
+      <UniqueIdentifier>{eaa5e9c8-8651-40db-adb4-38ba7bc7a0c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Levels\Level Three">
+      <UniqueIdentifier>{166271e2-dc95-447f-8b4f-df1df7df0e91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Levels\Level Four">
+      <UniqueIdentifier>{646121f5-34c5-470c-8258-5cd13d9185d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Levels\Level End">
+      <UniqueIdentifier>{ed99525f-2b15-43f3-bf6f-8d0b29d95f0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Levels\Level Boss">
+      <UniqueIdentifier>{28785fcb-f832-4732-a546-0acedd989cd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Levels\Credits">
+      <UniqueIdentifier>{b437b772-4448-4814-b80e-ffea1d098822}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Framework Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Framework Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Core.h">
+      <Filter>Framework Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix2x3.h">
+      <Filter>Framework Files</Filter>
+    </ClInclude>
+    <ClInclude Include="structs.h">
+      <Filter>Framework Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Framework Files</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>Framework Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2f.h">
+      <Filter>Framework Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Game Files\Main files</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuIntro.h">
+      <Filter>Game Files\Menu files</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuMain.h">
+      <Filter>Game Files\Menu files</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuManager.h">
+      <Filter>Game Files\Menu files</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuQuit.h">
+      <Filter>Game Files\Menu files</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuExtra.h">
+      <Filter>Game Files\Menu files</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuStory.h">
+      <Filter>Game Files\Menu files</Filter>
+    </ClInclude>
+    <ClInclude Include="SVGParser.h">
+      <Filter>Game Files\Main files\SVG parser</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Game Files\Main files\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelOne.h">
+      <Filter>Game Files\Levels\Level One</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>Game Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Game Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Game Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Trap.h">
+      <Filter>Game Files\Levels\Traps</Filter>
+    </ClInclude>
+    <ClInclude Include="TrapSpikeFall.h">
+      <Filter>Game Files\Levels\Traps</Filter>
+    </ClInclude>
+    <ClInclude Include="TrapSwingBlade.h">
+      <Filter>Game Files\Levels\Traps</Filter>
+    </ClInclude>
+    <ClInclude Include="Platform.h">
+      <Filter>Game Files\Levels\Platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelManager.h">
+      <Filter>Game Files\Levels\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelBase.h">
+      <Filter>Game Files\Levels\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="PlatformStatic.h">
+      <Filter>Game Files\Levels\Platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="HUD.h">
+      <Filter>Game Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Coin.h">
+      <Filter>Game Files\Levels\Extra</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelDecorations.h">
+      <Filter>Game Files\Levels\Extra</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEffect.h">
+      <Filter>Game Files\Sound files</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundStream.h">
+      <Filter>Game Files\Sound files</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>Game Files\Sound files</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelTwo.h">
+      <Filter>Game Files\Levels\Level Two</Filter>
+    </ClInclude>
+    <ClInclude Include="TrapCircleSaw.h">
+      <Filter>Game Files\Levels\Traps</Filter>
+    </ClInclude>
+    <ClInclude Include="Ladder.h">
+      <Filter>Game Files\Levels\Extra</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelThree.h">
+      <Filter>Game Files\Levels\Level Three</Filter>
+    </ClInclude>
+    <ClInclude Include="Lever.h">
+      <Filter>Game Files\Levels\Extra</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelFour.h">
+      <Filter>Game Files\Levels\Level Four</Filter>
+    </ClInclude>
+    <ClInclude Include="PlatformMoving.h">
+      <Filter>Game Files\Levels\Platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelEnd.h">
+      <Filter>Game Files\Levels\Level End</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelBoss.h">
+      <Filter>Game Files\Levels\Level Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Credits.h">
+      <Filter>Game Files\Levels\Credits</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Core.cpp">
+      <Filter>Framework Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2f.cpp">
+      <Filter>Framework Files</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>Framework Files</Filter>
+    </ClCompile>
+    <ClCompile Include="structs.cpp">
+      <Filter>Framework Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Framework Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Framework Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix2x3.cpp">
+      <Filter>Framework Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Game Files\Main files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Game Files\Main files</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuIntro.cpp">
+      <Filter>Game Files\Menu files</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuMain.cpp">
+      <Filter>Game Files\Menu files</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuManager.cpp">
+      <Filter>Game Files\Menu files</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuQuit.cpp">
+      <Filter>Game Files\Menu files</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuExtra.cpp">
+      <Filter>Game Files\Menu files</Filter>
+    </ClCompile>
+    <ClCompile Include="SVGParser.cpp">
+      <Filter>Game Files\Main files\SVG parser</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Game Files\Main files\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>Game Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelOne.cpp">
+      <Filter>Game Files\Levels\Level One</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Game Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Game Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuStory.cpp">
+      <Filter>Game Files\Menu files</Filter>
+    </ClCompile>
+    <ClCompile Include="Trap.cpp">
+      <Filter>Game Files\Levels\Traps</Filter>
+    </ClCompile>
+    <ClCompile Include="TrapSpikeFall.cpp">
+      <Filter>Game Files\Levels\Traps</Filter>
+    </ClCompile>
+    <ClCompile Include="TrapSwingBlade.cpp">
+      <Filter>Game Files\Levels\Traps</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform.cpp">
+      <Filter>Game Files\Levels\Platforms</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelManager.cpp">
+      <Filter>Game Files\Levels\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelBase.cpp">
+      <Filter>Game Files\Levels\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="PlatformStatic.cpp">
+      <Filter>Game Files\Levels\Platforms</Filter>
+    </ClCompile>
+    <ClCompile Include="HUD.cpp">
+      <Filter>Game Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Coin.cpp">
+      <Filter>Game Files\Levels\Extra</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelDecorations.cpp">
+      <Filter>Game Files\Levels\Extra</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEffect.cpp">
+      <Filter>Game Files\Sound files</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundStream.cpp">
+      <Filter>Game Files\Sound files</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>Game Files\Sound files</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelTwo.cpp">
+      <Filter>Game Files\Levels\Level Two</Filter>
+    </ClCompile>
+    <ClCompile Include="TrapCircleSaw.cpp">
+      <Filter>Game Files\Levels\Traps</Filter>
+    </ClCompile>
+    <ClCompile Include="Ladder.cpp">
+      <Filter>Game Files\Levels\Extra</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelThree.cpp">
+      <Filter>Game Files\Levels\Level Three</Filter>
+    </ClCompile>
+    <ClCompile Include="Lever.cpp">
+      <Filter>Game Files\Levels\Extra</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelFour.cpp">
+      <Filter>Game Files\Levels\Level Four</Filter>
+    </ClCompile>
+    <ClCompile Include="PlatformMoving.cpp">
+      <Filter>Game Files\Levels\Platforms</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelEnd.cpp">
+      <Filter>Game Files\Levels\Level End</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelBoss.cpp">
+      <Filter>Game Files\Levels\Level Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Credits.cpp">
+      <Filter>Game Files\Levels\Credits</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Sweet_Darkness.VC.db" />
+  </ItemGroup>
+</Project>
